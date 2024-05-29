@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vladislav\\Desktop\\Task5.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27C19AC7-27BB-47FB-90DA-DD5BD6532B1A}|SparseNumericMatrixTests\\SparseNumericMatrixTests.csproj|c:\\users\\vladislav\\desktop\\task5.1\\sparsenumericmatrixtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C19AC7-27BB-47FB-90DA-DD5BD6532B1A}|SparseNumericMatrixTests\\SparseNumericMatrixTests.csproj|solutionrelative:sparsenumericmatrixtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BCCBC6-236E-4ACA-A612-3C4F6396CEC1}|Task5.1\\Task5.1.csproj|c:\\users\\vladislav\\desktop\\task5.1\\task5.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BCCBC6-236E-4ACA-A612-3C4F6396CEC1}|Task5.1\\Task5.1.csproj|solutionrelative:task5.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BCCBC6-236E-4ACA-A612-3C4F6396CEC1}|Task5.1\\Task5.1.csproj|c:\\users\\vladislav\\desktop\\task5.1\\task5.1\\sparsenumericmatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BCCBC6-236E-4ACA-A612-3C4F6396CEC1}|Task5.1\\Task5.1.csproj|solutionrelative:task5.1\\sparsenumericmatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Vladislav\\Desktop\\Task5.1\\SparseNumericMatrixTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "SparseNumericMatrixTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Vladislav\\Desktop\\Task5.1\\SparseNumericMatrixTests\\UnitTest1.cs",
+              "RelativeToolTip": "SparseNumericMatrixTests\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:48:39.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SparseNumericMatrix.cs",
+              "DocumentMoniker": "C:\\Users\\Vladislav\\Desktop\\Task5.1\\Task5.1\\SparseNumericMatrix.cs",
+              "RelativeDocumentMoniker": "Task5.1\\SparseNumericMatrix.cs",
+              "ToolTip": "C:\\Users\\Vladislav\\Desktop\\Task5.1\\Task5.1\\SparseNumericMatrix.cs",
+              "RelativeToolTip": "Task5.1\\SparseNumericMatrix.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA5wAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:47:47.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vladislav\\Desktop\\Task5.1\\Task5.1\\Program.cs",
+              "RelativeDocumentMoniker": "Task5.1\\Program.cs",
+              "ToolTip": "C:\\Users\\Vladislav\\Desktop\\Task5.1\\Task5.1\\Program.cs",
+              "RelativeToolTip": "Task5.1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T13:47:04.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
