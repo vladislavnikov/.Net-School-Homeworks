@@ -1,4 +1,4 @@
-﻿namespace Task4._2
+namespace Task4._2
 {
     using System;
 
@@ -11,6 +11,12 @@
         {
             if (denominator == 0)
                 throw new ArgumentException("Denominator cannot be zero.");
+
+            if (denominator < 0)
+            {
+                numerator = -numerator;
+                denominator = -denominator;
+            }
 
             int gcd = GCD(Math.Abs(numerator), Math.Abs(denominator));
             Numerator = numerator / gcd;
@@ -37,11 +43,6 @@
             return Numerator == other.Numerator && Denominator == other.Denominator;
         }
 
-        public override string ToString()
-        {
-            return $"{Numerator}/{Denominator}";
-        }
-
         public override int GetHashCode()
         {
             return Numerator.GetHashCode() ^ Denominator.GetHashCode();
@@ -54,9 +55,10 @@
 
         public int CompareTo(RationalNumber other)
         {
-            double thisValue = (double)Numerator / Denominator;
-            double otherValue = (double)other.Numerator / other.Denominator;
-            return thisValue.CompareTo(otherValue);
+            // Use cross multiplication for comparison
+            int left = this.Numerator * other.Denominator;
+            int right = other.Numerator * this.Denominator;
+            return left.CompareTo(right);
         }
 
         public static RationalNumber operator +(RationalNumber r1, RationalNumber r2)
@@ -82,6 +84,9 @@
 
         public static RationalNumber operator /(RationalNumber r1, RationalNumber r2)
         {
+            if (r2.Numerator == 0)
+                throw new DivideByZeroException("Cannot divide by a rational number with a numerator of zero.");
+
             int num = r1.Numerator * r2.Denominator;
             int den = r1.Denominator * r2.Numerator;
             return new RationalNumber(num, den);
