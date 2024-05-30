@@ -1,4 +1,3 @@
-﻿
 namespace Task3._1
 {
     public static class Helper
@@ -11,12 +10,21 @@ namespace Task3._1
             }
 
             IQueue<T> newQueue = new Queue<T>();
-
-            queue.Dequeue();
+            IQueue<T> tempQueue = new Queue<T>();
 
             while (!queue.isEmpty())
             {
-                newQueue.Enqueue(queue.Dequeue());
+                tempQueue.Enqueue(queue.Dequeue());
+            }
+
+            while (!tempQueue.isEmpty())
+            {
+                T item = tempQueue.Dequeue();
+                queue.Enqueue(item);
+                if (!queue.isEmpty()) 
+                {
+                    newQueue.Enqueue(item);
+                }
             }
 
             return newQueue;
